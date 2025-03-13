@@ -1,7 +1,7 @@
 ---
-title: "HW3"
+title: "HW4"
 output: html_document
-date: "2024-03-05"
+date: "2025-03-05"
 editor_options: 
   markdown: 
     wrap: 72
@@ -17,7 +17,7 @@ library(tidyverse)
 
 ## 1. Универсальные лингвические иерархии: порядок прилагательных в новогреческом языке (стандартный и кипрский диалекты)  
 
-[Данные](https://raw.githubusercontent.com/olesar/2023dav4compling/main/data/greek-word-order-mono_translit.txt) (социолингвистическая анкета и результаты эксперимента в одном файле) взяты, с адаптацией, из исследования:
+Данные (социолингвистическая анкета и результаты эксперимента) взяты, с адаптацией, из исследования:
 Leivada, Evelina; Westergaard, Marit, 2019, [Universal linguistic hierarchies are not innately wired](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6679903/pdf/peerj-07-7438.pdf). PeerJ, v.7.
 
 Источник данных: репозиторий TROLLing:
@@ -67,7 +67,7 @@ Subjective Comment > Evidential > Size > Length
 
 #### Данные
 
-Загрузите данные из [файла](https://raw.githubusercontent.com/olesar/2025dav4compling/refs/heads/main/data/greek-word-order-mono-acceptability-coded-rt.txt") в переменную `mono`, переведя строковые данные в факторы. В переменной `mono_socio` сохраните данные социолингвистической [анкеты](https://raw.githubusercontent.com/olesar/2025dav4compling/refs/heads/main/data/greek-word-order-mono-acceptability-coded-rt.txt). В переменной mono оставьте только данные самого эксперимента. Переименуйте заголовки в последней таблице в следующие: "ParticipantID", "QuestionType", "NQuestions", "Likert", "RT".
+Загрузите данные из [файла](https://raw.githubusercontent.com/olesar/2025dav4compling/refs/heads/main/data/greek-word-order-mono-acceptability-coded-rt.txt") в переменную `mono`, переведя строковые данные в факторы. В переменной `mono_socio` сохраните данные социолингвистической [анкеты](https://raw.githubusercontent.com/olesar/2025dav4compling/refs/heads/main/data/greek-word-order-mono-acceptability-coded-rt.txt), также переведя строковые данные в факторы.
 
 ```{r loaddata}
 
@@ -156,11 +156,11 @@ Subjective Comment > Evidential > Size > Length
 Проанализируйте разницу в среднем значении RTlog у двух групп (порядок слов в стимуле: конгруэнтный vs неконгруэнтный). Сформулируйте нулевую и альтернативную гипотезу, аргументируйте, какой тип t-test'а или его аналогов следует применить, сделайте статистический и содержательный вывод о значимости различия.  
 
 ```{txt 1.8}
-YOU TEXT HERE
+YOUR TEXT HERE
 ```
 
 ```{r 1.8a}
-#YOU CODE HERE
+#YOUR CODE HERE
 ```
 
 ### 1.9
@@ -169,11 +169,11 @@ ANOVA. Проанализируйте разницу в среднем знач�
 (прилагательное размера > прилагательное национальности, прилагательное цвета > прилагательное формы, прилагательное субъективного комментария > прилагательное материала) и по участнику. Сформулируйте нулевую и альтернативную гипотезу, аргументируйте, какой тип дисперсионного анализа следует применить, сделайте статистический и содержательный вывод о значимости различия. Это задание выполняется только для ответов при порядке слов Incongruent.  
 
 ```{txt 1.9}
-YOU TEXT HERE
+YOUR TEXT HERE
 ```
 
 ```{r 1.9a}
-#YOU CODE HERE
+#YOUR CODE HERE
 ```
 
 ### 1.10 Post-hoc тест
@@ -182,12 +182,12 @@ YOU TEXT HERE
 Это задание, аналогично, выполняется только для ответов при порядке слов Incongruent.  
 
 ```{r 1.10}
-#YOU CODE HERE
+#YOUR CODE HERE
 ```
 
 Запишите ниже интерпретацию post-hoc теста.  
 
 ```{txt 1.10a}
-
+YOUR TEXT HERE
 
 ```
