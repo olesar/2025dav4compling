@@ -215,6 +215,8 @@ df <- read_csv("https://raw.githubusercontent.com/olesar/2023dav4compling/main/d
 где `speaker` и `word` - случайный эффект. Имейте в виду, что случайные эффекты здесь вложены друг в друга (nested). Чтобы избежать перекрещивания эффектов, создайте новую переменную, которая в явном виде будет указывать на вложенность.  
 
 ```{r}
+sample <- factor(df$speaker:df$word)
+
 fit2.WRONG <- lmer(vowel.dur ~ place + (1|speaker) + (1|word), data = df)  # treats the two random effects as if they are crossed
 df <- within(df, sample <- factor(speaker:word))
 summary(df$sample) 
